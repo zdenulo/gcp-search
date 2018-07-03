@@ -1,0 +1,18 @@
+#application: gcp-search
+#version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+#automatic_scaling:
+#  min_idle_instances: 10
+
+handlers:
+
+- url: /_ah/queue/deferred
+  script: google.appengine.ext.deferred.deferred.application
+  login: admin
+
+- url: .*
+  script: main.app
+

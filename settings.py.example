@@ -1,0 +1,8 @@
+# name of csv file with product data
+PRODUCTS_FILENAME = 'best_buy_products.csv'
+
+# absolute path of csv file with product data
+PRODUCTS_LOCAL_PATH = '/home/ubuntu/gcp-search/best_buy_products.csv'
+
+# url of web application which server autocomplete
+WEBAPP_URL = 'http://<product-id>.appspot.com'
