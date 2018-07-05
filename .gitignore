@@ -145,3 +145,4 @@ fabric.properties
 /best_buy_products.csv
 /gae_search_api/webapp/lib/
 /settings.py
+/cloud_datastore/webapp/lib/
