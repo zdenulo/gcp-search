@@ -1,0 +1,15 @@
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT main:app
+
+runtime_config:
+  python_version: 3
+
+env_variables:
+    # Replace user, password, database, and instance connection name with the values obtained
+    # when configuring your Cloud SQL instance.
+    SQLALCHEMY_DATABASE_URI: postgresql+psycopg2://postgres:qwerty@/eshop?host=/cloudsql/adventures-on-gcp:us-central1:myinstance
+
+
+beta_settings:
+    cloud_sql_instances: adventures-on-gcp:us-central1:myinstance

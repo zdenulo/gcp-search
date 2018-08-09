@@ -1,0 +1,5 @@
+# set this accordingly in file db_settings.py
+USERNAME = ''
+PASSWORD = ''
+DB_NAME = ''
+###

@@ -146,3 +146,5 @@ fabric.properties
 /gae_search_api/webapp/lib/
 /settings.py
 /cloud_datastore/webapp/lib/
+/cloud_sql/webapp/settings.py
+/cloud_sql/webapp/db_settings.py
