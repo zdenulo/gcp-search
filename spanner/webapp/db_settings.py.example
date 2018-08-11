@@ -1,0 +1,3 @@
+
+# create db_settings.py file and set variable accordingly
+SPANNER_INSTANCE_ID = '' #ID of Spanner instance
